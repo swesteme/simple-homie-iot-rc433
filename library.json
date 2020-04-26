@@ -1,0 +1,39 @@
+{
+    "name": "simple-homie-iot-rc433",
+    "version": "0.0.1",
+    "keywords": "iot, home, automation, mqtt, esp8266, async, sensor, rc433, 433Mhz",
+    "description": "Simple wrapper around homie-iot esp library",
+    "homepage": "https://github.com/swesteme/simple-homie-iot-rc433/",
+    "license": "MIT",
+    "authors": {
+        "name": "Sebastian Westemeyer",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swesteme/simple-homie-iot-rc433.git",
+        "branch": "master"
+    },
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif8266",
+        "espressif32"
+    ],
+    "dependencies": [
+        {
+            "name": "Simple Homie IOT wrapper",
+            "version": "^0.0.1"
+        },
+        {
+            "name": "rc-switch",
+            "version": "^2.6.3"
+        }
+    ],
+    "export": {
+        "include": [
+            "LICENSE",
+            "src/*",
+            "examples/*"
+        ]
+    }
+}
