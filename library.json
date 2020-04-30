@@ -1,6 +1,6 @@
 {
     "name": "simple-homie-iot-rc433",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": "iot, home, automation, mqtt, esp8266, async, sensor, rc433, 433Mhz",
     "description": "Simple wrapper around homie-iot esp library",
     "homepage": "https://github.com/swesteme/simple-homie-iot-rc433/",
